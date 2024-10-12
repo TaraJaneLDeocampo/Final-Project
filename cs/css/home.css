@@ -1,0 +1,76 @@
+.title {
+    text-align: center;
+    font-family: georgia,serif;
+    font-size: 65px;
+    margin:10px;
+    color:darkgreen;
+    overflow:hidden;
+    font-weight:bold;
+    }
+
+.w3-top{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+   
+    
+}
+
+.zero {
+    float:right;
+    margin:25px;
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+}
+
+.hunger{
+    float:left;
+    margin:25px;
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+}
+.what{
+    font-family: georgia, serif;
+    background-color: rgb(89, 181, 87);
+    color: rgb(207, 152, 50);
+    margin-left:430px;
+    margin-right: 430px;
+    text-align:center;
+    border-radius:5px;
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+    font-weight:bold;
+}
+.custom-hr {
+    width:2500;
+    margin-left:430px;
+    margin-right:430px;
+}
+.world {
+    font-family: georgia, serif;
+    background-color: beige;
+    color: green;
+    margin-left:440px;
+    margin-right:440px;
+    border-radius:5px;
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+}
+.zh {
+    margin-left:5px;
+    margin-right:5px;
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+}
+
+.na {
+    margin-left:5px;
+    margin-right:5px;
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+}
+.ra {
+    border-style:solid;
+    border-color:rgb(52, 91, 46);
+}
+
+
