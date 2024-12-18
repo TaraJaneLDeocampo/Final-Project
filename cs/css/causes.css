@@ -1,6 +1,24 @@
-.w3-top {
-    font-size:30px;
-    font-family:'Times New Roman', Times, serif;
+.navbar {
+    background: linear-gradient(45deg, #4CAF50, #357a38);
+    text-align: center; 
+    padding: 10px ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:15px;
+    margin-right:15px;
+}
+.nav-link {
+    color: white; 
+    text-decoration: none; 
+    font-size: 30px; 
+    margin: 0 50px; 
+    display: inline-block; 
+    font-weight: bold; 
+    transform:scale(1.1);
+}
+.nav-link:hover {
+    color: #ffcc00;
+    transition: color 0.3s ease-in-out; 
+   
 }
 .img-con {
     position:relative;
@@ -79,3 +97,33 @@
     margin-right:40px;
     margin-top:355px;
 }
+img[alt^="Crop Failures"] {
+    border: 3px dashed #1c6026;
+    border-radius: 10px;
+}
+
+.img-con img:first-child {
+    border: 3px solid green;
+    transform: scale(1.1);
+}
+
+.img-con img:last-child {
+    border: 3px solid rgb(42, 102, 52);
+    opacity: 0.8;
+}
+
+
+.img-con img:nth-child(2) {
+    border: 3px dashed orange;
+    filter: grayscale(50%);
+}
+
+.img-con img:nth-child(odd) {
+    box-shadow: 5px 5px 15px rgba(42, 108, 45, 0.5);
+}
+.img-con img:nth-child(even) {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+
