@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zero Hunger Sign-Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+  <body style='background-image: url("../img/green.jpg"); background-size: 125%; background-repeat: no-repeat'>
+    <header>
+      <nav class="navbar">
+        <div class="w3-row w3-padding w3-green">
+          <div class="w3-col s3">
+            <a href="../home.html" class="nav-link">HOME</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="causes.html" class="nav-link">CAUSES</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="how.html" class="nav-link">HOW</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="proj_signup_lastname.html" class="nav-link">SIGN UP</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="ref.html" class="nav-link">QUIZ</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <img class="logo" src="../img/logo.png" width="400px" height="800px">
+  
+    <h1 class="ti">Hunger-Free Guarantee </h1>
+    <p class="tagline">Join us in the fight against world hunger.</p>
+
+  <section class="signup-form">
+    <h2>Sign Up for the Campaign</h2>
+    <form id="signupForm">
+      <label>First Name *<input type="text" id="firstName" required></label>
+      <span class="error" id="errFirstName"></span>
+
+      <label>Last Name *<input type="text" id="lastName" required></label>
+      <span class="error" id="errLastName"></span>
+
+      <label>Sex *</label>
+      <label><input type="radio" name="sex" value="Male"> Male</label>
+      <label><input type="radio" name="sex" value="Female"> Female</label>
+      <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+      <span class="error" id="errSex"></span>
+
+      <label>Email *<input type="email" id="email" required></label>
+      <span class="error" id="errEmail"></span>
+
+      <label>Password *<input type="password" id="password" required></label>
+      <span class="error" id="errPassword"></span>
+
+      <label>Contact Number (optional)<input type="text" id="contact"></label>
+
+      <label>Why you're supporting our campaign *<textarea id="reason" required></textarea></label>
+      <span class="error" id="errReason"></span>
+
+      <button type="submit">Join the Movement</button>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

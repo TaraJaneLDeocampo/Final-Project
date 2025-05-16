@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+<body style='background-image: url("../img/green.jpg"); background-size: 125%; background-repeat: no-repeat'>
+    <header>
+      <nav class="navbar">
+        <div class="w3-row w3-padding w3-green">
+          <div class="w3-col s3">
+            <a href="../home.html" class="nav-link">HOME</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="causes.html" class="nav-link">CAUSES</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="how.html" class="nav-link">HOW</a>
+          </div>
+          <div class="w3-col s2">
+            <a href="proj_signup_lastname.html" class="nav-link">SIGN UP</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="ref.html" class="nav-link">QUIZ</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 class="well">Welcome to the Zero Hunger Movement</h1>
+
+  <section class="profile">
+    <h2>Your Information</h2>
+    <p><strong>First Name:</strong> <span id="outFirstName"></span></p>
+    <p><strong>Last Name:</strong> <span id="outLastName"></span></p>
+    <p><strong>Email:</strong> <span id="outEmail"></span></p>
+    <p><strong>Sex:</strong> <span id="outSex"></span></p>
+    <p><strong>Why I support this campaign:</strong> <span id="outReason"></span></p>
+  </section>
+
+  <script>
+    document.getElementById("outFirstName").textContent = localStorage.getItem("firstName");
+    document.getElementById("outLastName").textContent = localStorage.getItem("lastName");
+    document.getElementById("outEmail").textContent = localStorage.getItem("email");
+    document.getElementById("outSex").textContent = localStorage.getItem("sex");
+    document.getElementById("outReason").textContent = localStorage.getItem("reason");
+  </script>
+</body>
+</html>
